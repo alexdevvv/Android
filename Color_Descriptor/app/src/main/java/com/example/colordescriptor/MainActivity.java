@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initGetDescriptionTempButton();
 
-
         spinnerColors = findViewById(R.id.spinner_colors);
         textViewDescriptionTemp = findViewById(R.id.color_description_tv);
 
