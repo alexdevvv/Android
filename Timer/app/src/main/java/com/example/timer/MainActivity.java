@@ -41,6 +41,35 @@ public class MainActivity extends AppCompatActivity {
         outState.putBoolean("isRunning", isRunning);
     }
 
+//    @Override
+//    protected void onStart() {
+//        super.onStart();
+//        if (second != 0) {
+//            isRunning = true;
+//        }
+//
+//    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (second != 0) {
+            isRunning = true;
+        }
+    }
+
+    //    @Override
+//    protected void onStop() {
+//        super.onStop();
+//        isRunning = false;
+//    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        isRunning = false;
+    }
+
     private void initStartButton() {
         startButton = findViewById(R.id.start_bt);
         startButton.setOnClickListener(new View.OnClickListener() {
