@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cafe Order</string>
+    <string name="velcome_text_view">Добро пожаловать</string>
+    <string name="user_name_hint">Введите ваше имя</string>
+    <string name="user_password_hint">Введите ваш пароль</string>
+    <string name="exit_bt">Войти</string>
+</resources>
