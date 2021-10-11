@@ -4,4 +4,23 @@
     <string name="user_name_hint">Введите ваше имя</string>
     <string name="user_password_hint">Введите ваш пароль</string>
     <string name="exit_bt">Войти</string>
+    <string name="welcome_user_text">Привет Клиент, Что будете заказывать?</string>
+    <string name="question_from_drink">Что добавить в Ваш чай</string>
+    <string name="Milk">Молоко</string>
+    <string name="Sugar">Сахар</string>
+    <string name="Lemon">Лимон</string>
+    <string name="choose_drink">Выберете напиток</string>
+    <string name="make_order_button">Сделать заказа</string>
+
+    <string-array name="options_of_coffee">
+        <item>Американо</item>
+        <item>Эспрессо</item>
+        <item>Латте</item>
+    </string-array>
+
+    <string-array name="options_of_tea">
+        <item>Черный</item>
+        <item>Зеленый</item>
+        <item>Красный</item>
+    </string-array>
 </resources>
