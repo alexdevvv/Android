@@ -31,9 +31,9 @@ public class MainActivity extends AppCompatActivity {
                 if (editTextUserName.getText().length() != 0 && editTextUserPassword.getText().length() != 0) {
                     String userName = editTextUserName.getText().toString().trim();
                     String userPassword = editTextUserPassword.getText().toString().trim();
-                    Intent intent = new Intent(getApplicationContext(), OrderActivity.class);
-                    intent.putExtra(OrderActivity.KEY_USER_NAME, userName);
-                    intent.putExtra(OrderActivity.KEY_USER_PASSWORD, userPassword);
+                    Intent intent = new Intent(getApplicationContext(), CreateOrderActivity.class);
+                    intent.putExtra(CreateOrderActivity.KEY_USER_NAME, userName);
+                    intent.putExtra(CreateOrderActivity.KEY_USER_PASSWORD, userPassword);
                     startActivity(intent);
                 } else {
                     Toast.makeText(getApplicationContext(), "Все поля должны быть заполнены.", Toast.LENGTH_LONG).show();

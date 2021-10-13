@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:gravity="center"
-        android:text="@string/velcome_text_view"
+        android:text="@string/welcome_text_view"
         android:textColor="@color/brown"
         android:textSize="35sp"
         android:textStyle="bold|italic"

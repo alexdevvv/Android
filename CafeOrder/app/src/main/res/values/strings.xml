@@ -1,16 +1,28 @@
 <resources>
     <string name="app_name">Cafe Order</string>
-    <string name="velcome_text_view">Добро пожаловать</string>
-    <string name="user_name_hint">Введите ваше имя</string>
-    <string name="user_password_hint">Введите ваш пароль</string>
+    <string name="logo_description">Логотип кафе.</string>
+    <string name="default_name">клиент</string>
+    <string name="default_password">пароль</string>
+    <string name="hint_name">Введите ваше имя:</string>
+    <string name="hint_password">Введите ваш пароль:</string>
+    <string name="button_create_order">СОЗДАТЬ ЗАКАЗ</string>
+    <string name="warning_fill_fields">Все поля должны быть заполнены</string>
+    <string name="hello_user">Привет, %s! Что будете заказывать?</string>
+    <string name="tea">Чай</string>
+    <string name="coffee">Кофе</string>
+    <string name="additions">Что добавить в ваш %s?</string>
+    <string name="milk">Молоко</string>
+    <string name="sugar">Сахар</string>
+    <string name="lemon">Лимон</string>
+    <string name="choose_drink">Выберите вид напитка</string>
+    <string name="button_send_description">Кнопка отправить заказ</string>
+    <string name="order">Имя: %s Пароль: %s Напиток: %s Вид напитка: %s</string>
+    <string name="need_additions">Необходимые добавки:</string>
+    <string name="welcome_text_view">Добро пожаловать!</string>
+    <string name="user_name_hint">Имя</string>
+    <string name="user_password_hint">Пароль</string>
     <string name="exit_bt">Войти</string>
-    <string name="welcome_user_text">Привет Клиент, Что будете заказывать?</string>
-    <string name="question_from_drink">Что добавить в Ваш чай</string>
-    <string name="Milk">Молоко</string>
-    <string name="Sugar">Сахар</string>
-    <string name="Lemon">Лимон</string>
-    <string name="choose_drink">Выберете напиток</string>
-    <string name="make_order_button">Сделать заказа</string>
+    <string name="create_orer_button">Сделать заказ</string>
 
     <string-array name="options_of_coffee">
         <item>Американо</item>
